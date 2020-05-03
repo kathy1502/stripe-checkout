@@ -76,14 +76,13 @@
           // Make the call to Stripe.js to redirect to the checkout page
           // with the sku or plan ID.
           stripe
-            .redirectToCheckout({
-              items: items,
-              successUrl:
-                DOMAIN + "/stripe-checkout/success.html",
-              cancelUrl:
-                DOMAIN + "/stripe-checkout/canceled.html"
-            })
-            .then(handleResult);
+          .redirectToCheckout({
+            items: [{ sku: SKU_ID, quantity: quantity }],
+            successUrl:
+              DOMAIN + "/success.html?session_id={CHECKOUT_SESSION_ID}",
+            cancelUrl: DOMAIN + "/canceled.html"
+          })
+          .then(handleResult);
         });
       });
    
