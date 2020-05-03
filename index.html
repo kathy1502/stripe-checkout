@@ -79,13 +79,14 @@
             .redirectToCheckout({
               items: items,
               successUrl:
-                DOMAIN + "success.html?session_id={CHECKOUT_SESSION_ID}",
+                DOMAIN + "success.html",
               cancelUrl:
-                DOMAIN + "canceled.html?session_id={CHECKOUT_SESSION_ID}"
+                DOMAIN + "canceled.html"
             })
             .then(handleResult);
         });
       });
+   
     </script>
   </body>
 </html>
