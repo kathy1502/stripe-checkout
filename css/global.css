@@ -10,7 +10,7 @@
   --accent-color: #980000;
   --body-font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   --radius: 6px;
-  --logo-image: url("https://www.only-inside.de/media/clients/client_2606/logo-rot-1024x228-schoene-heldin_3223787d9bccbb3da27762c7a056a8b3.png");
+  --logo-image: url("https://www.schoene-heldin.de/media/clients/client_2606/logo-rot-1024x228-schoene-heldin_3223787d9bccbb3da27762c7a056a8b3.png");
   --form-width: 650px;
 }
 
@@ -359,7 +359,7 @@ pre {
 :root {
   --accent-color: #980000;
   --headline-color: var(--accent-color);
-  --logo-image: url("https://www.only-inside.de/media/clients/client_2606/logo-rot-1024x228-schoene-heldin_3223787d9bccbb3da27762c7a056a8b3.png");
+  --logo-image: url("https://www.schoene-heldin.de/media/clients/client_2606/logo-rot-1024x228-schoene-heldin_3223787d9bccbb3da27762c7a056a8b3.png");
 }
 
 .pasha-image-stack {
