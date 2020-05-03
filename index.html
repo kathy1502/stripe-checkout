@@ -79,9 +79,9 @@
             .redirectToCheckout({
               items: items,
               successUrl:
-                DOMAIN + "success.html",
+                DOMAIN + "/stripe-checkout/success.html",
               cancelUrl:
-                DOMAIN + "canceled.html"
+                DOMAIN + "/stripe-checkout/canceled.html"
             })
             .then(handleResult);
         });
