@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Stripe Payment Page Recipe</title>
-    <meta name="description" content="A demo of Stripe Payment Intents" />
+    <title>Stripe Checkout Sample</title>
+    <meta name="description" content="A demo of Stripe client-only Checkout" />
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/normalize.css" />
@@ -14,19 +14,29 @@
 
   <body>
     <div class="sr-root">
-      <div class="sr-main" style="display: flex;">
+      <div class="sr-main">
         <header class="sr-header">
           <div class="sr-header__logo"></div>
         </header>
-      
-            <h1>Styling Coaching</h1>
-            <button data-sku-id="sku_HD7IHxK4ZlEdrZ">Styling Coaching Herren 497.00 € </button>
-            
+        <section class="container">
+          <h1>One-time Donation</h1>
+          <button data-sku-id="sku_HD7IHxK4ZlEdrZ">Styling Coaching Herren 497,00 €</button>
+          
          
+        </section>
+       
         <div id="error-message"></div>
       </div>
     </div>
-   
+    <div class="banner">
+      <span>
+        This is a
+        <a href="https://github.com/stripe-samples"> Stripe Sample </a> on how
+        to use the new Stripe Checkout to start a subscription.
+        <a
+          href="https://github.com/stripe-samples/github-pages-stripe-checkout"
+        >
+          View code on GitHub.
         </a>
       </span>
     </div>
